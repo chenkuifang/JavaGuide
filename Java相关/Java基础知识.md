@@ -409,7 +409,7 @@ final关键字主要用在三个地方：变量、方法、类。
 
 ### 异常处理总结
 
-- try 块：用于捕获异常。其后可接零个或多个catch块，如果没有catch块，则必须跟一个finally块。
+- try 块：用于捕获异常。其后可接零个或多个catch块，如果没有catch块，则必须跟一个finally块(像ReentrantLock的使用)。
 - catch 块：用于处理try捕获到的异常。
 - finally 块：无论是否捕获或处理异常，finally块里的语句都会被执行。当在try块或catch块中遇到return语句时，finally语句块将在方法返回之前被执行。
 
